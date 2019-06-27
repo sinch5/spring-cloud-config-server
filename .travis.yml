@@ -4,7 +4,7 @@ services:
   - docker
   
 before_install:
-    - docker build -t sinch5/spring-cloud-config-server -f ./Dockerfile.dev .
+    - docker build -t sinch5/spring-cloud-config-server -f Dockerfile.dev .
 
 #script:
     #- docker run sinch5/react-test npm test -- --coverage
